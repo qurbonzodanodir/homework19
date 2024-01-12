@@ -1,0 +1,347 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #000000;
+  height: 100vh;
+}
+
+.menu {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 15px;
+}
+.menu a:hover {
+  background-color: grey;
+  border-radius: 30%;
+  transition: 3s;
+}
+.menu .nav2 {
+  display: flex;
+}
+.menu .nav2 h2 {
+  margin: 0px 30px;
+}
+.menu .nav3 a {
+  border: 1px solid white;
+  padding: 3px 15px;
+}
+.menu .nav1 img {
+  margin-top: -20px;
+}
+
+.info {
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+}
+.info h1 {
+  font-size: 60px;
+  margin-bottom: 60px;
+}
+
+.twobutton {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+}
+.twobutton a {
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+}
+.twobutton .button1 a {
+  padding: 15px 25px;
+  background-color: #4452FE;
+}
+.twobutton .button1 a:hover {
+  box-shadow: 5px 5px 5px grey, -5px -5px 5px green;
+}
+.twobutton .button2 {
+  padding: 13px 15px;
+  border: 1px solid white;
+  margin-top: -15px;
+}
+.twobutton .button2:hover {
+  box-shadow: 5px 5px 5px saddlebrown, -5px -5px 5px grey;
+}
+
+.panel {
+  margin-top: 50px;
+  padding-bottom: 100px;
+  background-color: #000000;
+  width: 100%;
+}
+.panel img {
+  width: 100%;
+}
+
+.gap {
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  text-align: center;
+  background-color: #181818;
+}
+.gap h1 {
+  font-size: 60px;
+}
+.gap p {
+  font-size: 25px;
+}
+
+.features {
+  padding-bottom: 120px;
+  color: white;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto;
+  background-color: #181818;
+}
+.features .features-left {
+  width: 100%;
+}
+.features .features-left img {
+  width: 100%;
+}
+.features .features-right .features-right1 {
+  margin-top: 80px;
+}
+
+.contents {
+  display: grid;
+  background-color: #181818;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: end;
+  padding-bottom: 120px;
+}
+.contents .contents-left a {
+  text-decoration: none;
+  color: white;
+  padding: 17px 50px;
+  background-color: #4452FE;
+  position: relative;
+  right: 350px;
+  bottom: 380px;
+}
+.contents .contents-left a:hover {
+  box-shadow: 5px 5px 5px greenyellow, -5px -5px 5px green;
+}
+.contents .contents-right a:hover {
+  box-shadow: 5px 5px 5px rgb(53, 7, 7), -5px -5px 5px green;
+}
+.contents .contents-right a {
+  text-decoration: none;
+  color: white;
+  padding: 17px 55px;
+  background-color: #4452FE;
+  position: relative;
+  right: 367px;
+  bottom: 403px;
+}
+
+.four-image {
+  background-color: #181818;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  gap: 30px;
+}
+.four-image img {
+  border-radius: 7%;
+}
+
+.three-image {
+  padding-top: 30px;
+  background-color: #181818;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  gap: 30px;
+}
+.three-image img {
+  border-radius: 7%;
+}
+
+.see {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #181818;
+  text-align: center;
+}
+.see a {
+  text-decoration: none;
+  color: white;
+  padding: 7px 40px;
+  border: 1px solid white;
+}
+.see a:hover {
+  box-shadow: 5px 5px 5px, -5px -5px 5px grey;
+}
+
+.logoes {
+  background-color: #181818;
+  display: grid;
+  justify-content: center;
+  gap: 100px;
+  grid-template-columns: auto auto auto auto auto auto;
+}
+
+.cards {
+  background-color: #181818;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  gap: 20px;
+}
+
+.last-info {
+  padding-left: 150px;
+  background-color: #181818;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+.last-info img {
+  width: 100%;
+}
+.last-info a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  background-color: #4452FE;
+  padding: 15px 65px;
+  position: relative;
+  right: 76%;
+  top: -133px;
+}
+.last-info a:hover {
+  box-shadow: 5px 5px 5px, -5px -5px 5px grey;
+}
+
+.footer {
+  padding-bottom: 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
+  background-color: #181818;
+}
+.footer .footer1 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 100px;
+}
+.footer .footer1 .footer12 a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 15px;
+}
+.footer .footer1 .footer12 a:hover {
+  background-color: grey;
+  transition: 2s;
+  color: black;
+}
+.footer .footer2 a {
+  text-decoration: none;
+  color: white;
+}
+
+.mobmenu {
+  background-color: #000000;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  display: none;
+}
+.mobmenu .mobmenu2 a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+  .mobmenu {
+    display: block;
+    display: grid;
+    position: relative;
+    bottom: 940px;
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  .mobmenu h2 {
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  .mobmenu h2 a {
+    padding: 7px 15px;
+  }
+  .features {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .features .features-right {
+    text-align: center;
+  }
+  .contents {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .contents img {
+    width: 100%;
+  }
+  .four-image {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .three-image {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .three-image img {
+    width: 100%;
+  }
+  .logoes {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  .logoes img {
+    width: 100%;
+  }
+  .cards {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .cards img {
+    width: 100%;
+  }
+  .last-info {
+    display: none;
+  }
+  .footer {
+    text-align: start;
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .footer .footer1 {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .footer .footer2 {
+    margin-top: 50px;
+  }
+}/*# sourceMappingURL=style.css.map */
