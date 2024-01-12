@@ -21,7 +21,8 @@
 .menu a:hover {
   background-color: grey;
   border-radius: 30%;
-  transition: 3s;
+  transition: 2s;
+  color: #000000;
 }
 .menu .nav2 {
   display: flex;
@@ -116,37 +117,23 @@
   margin-top: 80px;
 }
 
-.contents {
-  display: grid;
+.Contents {
   background-color: #181818;
   display: grid;
   grid-template-columns: auto auto;
-  justify-content: end;
   padding-bottom: 120px;
 }
-.contents .contents-left a {
-  text-decoration: none;
-  color: white;
-  padding: 17px 50px;
-  background-color: #4452FE;
+.Contents .contents-left a {
   position: relative;
-  right: 350px;
+  right: 352px;
   bottom: 380px;
-}
-.contents .contents-left a:hover {
-  box-shadow: 5px 5px 5px greenyellow, -5px -5px 5px green;
-}
-.contents .contents-right a:hover {
-  box-shadow: 5px 5px 5px rgb(53, 7, 7), -5px -5px 5px green;
-}
-.contents .contents-right a {
   text-decoration: none;
   color: white;
-  padding: 17px 55px;
   background-color: #4452FE;
-  position: relative;
-  right: 367px;
-  bottom: 403px;
+  padding: 18px 60px;
+}
+.Contents .contents-left a:hover {
+  box-shadow: 5px 5px 5px grey, -5px -5px 5px grey;
 }
 
 .four-image {
@@ -219,10 +206,10 @@
   color: white;
   font-size: 20px;
   background-color: #4452FE;
-  padding: 15px 65px;
+  padding: 15px 58px;
   position: relative;
-  right: 76%;
-  top: -133px;
+  right: 31.2%;
+  top: -150px;
 }
 .last-info a:hover {
   box-shadow: 5px 5px 5px, -5px -5px 5px grey;
